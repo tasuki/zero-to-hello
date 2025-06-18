@@ -1,0 +1,6 @@
+[tools]
+python = '3.13.5'
+scala-cli = '1.8.1'
+stack = '3.5.1'
+erlang = '28.0.1'
+gleam = '1.11.1'
