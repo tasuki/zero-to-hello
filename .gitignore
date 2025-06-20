@@ -1,3 +1,10 @@
+# scala
 hello/.bsp/
 hello/.scala-build/
+# idris
+build/
+# gleam
 hello/gleam/build/
+# fsharp
+hello/fsharp/bin/
+hello/fsharp/obj/
