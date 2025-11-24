@@ -13,6 +13,7 @@ What a hello world takes, starting from Debian and using mise:
 | Gleam    |        😅 |   190 MB |      120 s |       1 s |   0.2 s |
 | F#       |        😐 |   577 MB |       35 s |       3 s |   1.3 s |
 | Roc      |        😕 |   105 MB |       20 s |       1 s |   0.2 s |
+| Chicken  |        😊 |    18 MB |       30 s |       1 s |   0.0 s |
 
 - **Python**: No dependencies! Run: `python hello/hello.py`
 - **Scala**: Excl system `default-jdk`. Confusion: scala-cli, coursier, bloop. Run: `scala-cli hello/hello.scala`
@@ -21,3 +22,4 @@ What a hello world takes, starting from Debian and using mise:
 - **Gleam**: Confusion: needs Erlang. Run: `cd hello/gleam/ && gleam run`
 - **F#**: DotNet is big and F# is slow. Run: `cd hello/fsharp/ && dotnet run`
 - **Roc**: `mise plugins add roc https://github.com/dkuku/asdf-roc.git`. Run: `roc/hello.roc`
+- **Chicken Scheme**: Run: `csi hello/hello.scm` or `csc hello/hello.scm && ./hello/hello`
